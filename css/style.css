@@ -1,0 +1,35 @@
+*{ margin: 0; box-sizing: border-box;}
+
+body{
+    background: #a8b8cc;
+}
+
+
+#calender{
+    width: 400px;
+    padding: 1rem;
+    background: #ce49d0;
+    color: #fff;
+    margin: 4rem auto;
+}
+
+#calender label{
+    font-size: 22px;
+    display: block;  
+}
+
+#calender select{
+    width: 100%;
+    padding: .5rem 1rem;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#selected_date{
+    margin: 2rem auto;
+    width: 90%;
+    padding: .5rem;
+    font-size: 26px;
+    font-weight: 300;
+}
